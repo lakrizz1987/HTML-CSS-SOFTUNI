@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 25px;
+}
+
+.heading {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#right-al {
+    text-align: right;
+    margin-top: 35px;
+    padding-bottom: 25px;
+}
+
+
+
+table,
+td,
+th {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(221, 221, 221);
+    text-align: left;
+}
+
+thead th {
+    padding: 5px;
+}
+
+tbody td {
+    padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+
+tbody tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
