@@ -1,0 +1,30 @@
+html {
+    font-family: Helvetica, sans-serif;
+    padding: 40px 60px;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+nav,h1 {
+    display: inline-block;
+}
+
+main h1 {
+    font-family: 'Times New Roman', Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+}
+
+header h1 {
+    margin-right: 40px;
+    font-size: 44px;
+}
+
+nav ul li,a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: green;
+}
