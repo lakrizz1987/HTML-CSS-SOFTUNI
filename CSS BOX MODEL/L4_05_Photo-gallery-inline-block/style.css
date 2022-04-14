@@ -1,0 +1,31 @@
+section {
+    max-width: 900px;
+    margin: 0px auto;
+    background-color: rgb(240, 247, 252);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.galery {
+    list-style: none;
+}
+
+li {
+    max-width: 200px;
+    display:inline-block;
+    border: 0.4rem solid black;
+    padding: 10px;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
