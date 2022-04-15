@@ -1,0 +1,18 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.4;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.aside-title{
+    font-weight: 500;
+}

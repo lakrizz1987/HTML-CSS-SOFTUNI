@@ -1,0 +1,42 @@
+.page-wraper {
+    background-color: rgb(238, 238, 238);
+    max-width: 93%;
+    margin: 5px auto;
+    padding: 30px;
+}
+
+.main-content {
+    max-width: 800px;
+    vertical-align: top;
+}
+
+.main-content,
+.aside-content {
+    display: inline-block;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+p {
+    width: 100%;
+}
+
+.section-ul,
+.aside-ul {
+    list-style: square;
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.aside-content {
+    max-width: 300px;
+}
+
+.aside-li a {
+    color: blue;
+}
