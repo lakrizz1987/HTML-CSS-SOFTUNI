@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    line-height: 1.4;
+    max-width: 190px;
+}
+
+p {
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 54vw;
+    margin: 170px auto;
+}
+
+article {
+    padding-right: 60px;
+}
