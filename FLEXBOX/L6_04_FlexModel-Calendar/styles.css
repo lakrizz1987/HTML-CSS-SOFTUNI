@@ -1,0 +1,51 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    max-width: 65vw;
+    text-align: center;
+}
+
+span {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+
+}
+
+span {
+    flex-grow: 1;
+}
+
+#workweek {
+    flex-basis: 100%;
+    padding-bottom: 100px;
+}
+
+#weekend {
+    flex-basis: 100%;
+    padding-bottom: 100px;
+}
+
+
+
+.sub {
+    
+    padding-bottom: 100px;
+}
