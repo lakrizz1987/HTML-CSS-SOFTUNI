@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    padding: 0;
+}
+
+.gallery {
+    max-width: 66vw;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+li {
+    display: flex;
+    border: 6px solid black;
+    padding: 10px;
+    box-shadow: 1px 1px 7px 9px grey;
+}
+
+img {
+    object-fit: contain;
+    max-width: 200px;
+}
