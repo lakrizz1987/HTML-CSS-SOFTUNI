@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 60vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+article {
+    display: flex;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.big {
+    flex-basis: 50%;
+    border-left: 9px solid black;
+    border-right: 9px solid black;
+    
+}
+
+.small {
+    flex-basis: 10%;
+}

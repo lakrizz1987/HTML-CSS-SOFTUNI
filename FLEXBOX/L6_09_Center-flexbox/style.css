@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 10px 0 5px 0px;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+.card {
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px 3px gray;
+    padding: 5px 15px 15px 15px;
+    line-height: 1.4;
+}
