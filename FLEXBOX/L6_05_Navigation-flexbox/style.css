@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    padding: 30px 80px;
+}
+
+header,ul {
+    display: flex;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+main h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    align-self: flex-start;
+}
+
+li {
+    margin: 15px;
+    color: rgb(0, 153, 0);
+    cursor: pointer;
+}
+
+header {
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
